@@ -1,0 +1,99 @@
+.container {
+  background-color: #091353;
+  padding: 10px 0;
+
+  h2 {
+    font-size: 6rem;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  // cards ----------------------------------------
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .card {
+      width: 300px;
+      height: 220px;
+      background-color: #ffffff;
+      padding: 10px 5px;
+      border-radius: 10px;
+      margin: 15px;
+
+      h3 {
+        font-size: 2.5rem;
+        padding: 5px;
+        color: #6166b3;
+        font-weight: 700;
+
+        &::first-letter {
+          text-transform: capitalize;
+        }
+      }
+
+      // find/name form --------------------------------
+      form {
+        input {
+          width: 150px;
+          margin-left: 10px;
+          text-indent: 5px;
+        }
+      }
+
+      // find/name info --------------------------------
+      .info {
+        font-size: 1.5rem;
+        text-align: left;
+
+        li {
+          margin-left: 45px;
+          margin-bottom: 5px;
+        }
+      }
+
+      // buttons for search, size and density ----------
+      button {
+        border: none;
+        margin: 010px;
+        padding: 2.5px 10px;
+        border-radius: 5px;
+        background-color: #ffae0054;
+
+        &:hover {
+          background-color: #ffae00;
+        }
+      }
+
+      span {
+        font-size: 2rem;
+      }
+
+      h4 {
+        font-size: 1.8rem;
+        margin-bottom: 5px;
+        color: #000000;
+        font-weight: 700;
+
+        &::first-letter {
+          text-transform: capitalize;
+        }
+      }
+
+      // size and density statement ---------------------
+      p {
+        font-size: 1.6rem;
+        padding: 0 15px;
+        text-align: left;
+      }
+
+      .info,
+      p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+      }
+    }
+  }
+}
